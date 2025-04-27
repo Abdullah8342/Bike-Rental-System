@@ -40,11 +40,11 @@ def main():
 
         elif choice == 5:
             customer.bill = shop.returnBike(customer.returnBike())
-            customer.rentalBasis, customer.rentalTime, customer.bikes = 0,0,0        
+            customer.rentalBasis, customer.rentalTime, customer.bikes = 0,0,0
         elif choice == 6:
             break
         else:
-            print("Invalid input. Please enter number between 1-6 ")        
+            print("Invalid input. Please enter number between 1-6 ")
     print("Thank you for using the bike rental system.")
 
 
